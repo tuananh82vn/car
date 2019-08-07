@@ -13,6 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSales_Mini.BLL", "CarSal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSales_Mini.xUnitTest", "CarSales_Mini.xUnitTest\CarSales_Mini.xUnitTest.csproj", "{BEA14DDB-7358-4448-AD44-5EB3D0D9A6E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{684A306B-E5B2-433A-ACB7-21428ED728A7}"
+	ProjectSection(SolutionItems) = preProject
+		Database\CarSales_Mini.bak = Database\CarSales_Mini.bak
+		Database\script.sql = Database\script.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
